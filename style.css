@@ -1,0 +1,167 @@
+/*Corpo do site*/
+
+body {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#FFFFFF;
+}
+#geral {
+    width:100%;
+    margin:0 auto;
+    background:#ffffee;
+}
+#cabecalho {
+    padding:0px;
+    background:#fdd;
+}
+#conteudo-1 {
+    float:left;
+    width:210px;
+    padding:10px;
+    background:#bfb;
+    background:#ADE4EB;
+    text-align: justify;
+    font-size: 90%;
+    font-weight: none;
+    height: 100%;
+    min-height: 100%;
+    
+}
+#conteudo-2 {
+    float:none;
+    width:100%;
+    padding:0px;
+    background:#e3e;
+    background:#FFFFFF;    
+    text-align: left;
+    margin: 0px;
+    margin-left:0px;
+    
+    
+}
+
+#rodape {
+    clear:both;
+    padding:10px;
+    background:#ff9;
+    text-align: center;
+}
+
+
+
+/*Formatação de texto*/
+
+#texto-conteudo-1 {
+    
+    text-align: none;
+    margin-left: 20px;
+ 
+}
+
+#texto-conteudo-2 {
+    
+    text-align: center;
+    margin-left: 40px;
+    font-size: 10pt;
+}
+
+#texto-conteudo-3 {
+    
+    text-align: left;
+    margin-left: 40px;
+    font-size:12pt;
+ 
+}
+
+#titulo1 {
+    text-align: center;
+}
+
+#titulo2 {
+    text-align: left;
+    margin-left: 20px;
+    font-size:16pt;
+    font-weight: bold;
+}
+
+#titulo3 {
+    text-align: left;
+    margin-left: 20px;
+    font-size:16pt;
+    font-weight: bold;
+}
+
+
+/* Lista */
+
+#listul {
+  list-style-type: yes;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#listli {
+  float: left;
+}
+
+/* Barra de nevegação */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+/*Conteúdo relativo a responsividade da página*/
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #geral {
+    width: 100%;
+    padding: 0;
+    margin:0;
+  }
+  #conteudo-1 {
+    width: 100%;
+    padding: 0;
+    
+  }
+  #conteudo-2 {
+    width: 100%;
+    padding: 0;
+  }
+   
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #geral, #conteudo-1, #conteudo-2 {
+    width: 100%;
+    padding: 0;
+    
+  }
+
+}
