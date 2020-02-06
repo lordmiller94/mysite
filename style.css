@@ -5,11 +5,22 @@ body {
     padding:0;
     color:#000;
     background:#FFFFFF;
+    
+}
+
+hr {
+	color:blue;
+	display: block;
+	margin-left: 10px;
+	margin-right: auto%;
+	border-style: inset;
+	border-width: 1px;
 }
 #geral {
     width:100%;
     margin:0 auto;
     background:#ffffee;
+    background:#ADE4EB;
 }
 #cabecalho {
     padding:0px;
@@ -19,30 +30,29 @@ body {
     float:left;
     width:210px;
     padding:10px;
-    background:#bfb;
     background:#ADE4EB;
     text-align: justify;
-    font-size: 90%;
+    
     font-weight: none;
-    height: 100%;
-    min-height: 100%;
+    
     
 }
 #conteudo-2 {
     float:none;
-    width:100%;
+    width:auto;
     padding:0px;
     background:#e3e;
-    background:#FFFFFF;    
+    background:#EEEEEE;    
     text-align: left;
     margin: 0px;
-    margin-left:0px;
+    margin-left:230px;
+    margin-right:0;
     
     
 }
 
 #rodape {
-    clear:both;
+    
     padding:10px;
     background:#ff9;
     text-align: center;
@@ -50,7 +60,7 @@ body {
 
 
 
-/*Formatação de texto*/
+/*FormataÃ§Ã£o de texto*/
 
 #texto-conteudo-1 {
     
@@ -107,7 +117,7 @@ body {
   float: left;
 }
 
-/* Barra de nevegação */
+/* Barra de nevegaÃ§Ã£o */
 
 ul {
   list-style-type: none;
@@ -131,37 +141,4 @@ li a {
 
 li a:hover {
   background-color: #111;
-}
-
-
-
-
-/*Conteúdo relativo a responsividade da página*/
-
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  #geral {
-    width: 100%;
-    padding: 0;
-    margin:0;
-  }
-  #conteudo-1 {
-    width: 100%;
-    padding: 0;
-    
-  }
-  #conteudo-2 {
-    width: 100%;
-    padding: 0;
-  }
-   
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  #geral, #conteudo-1, #conteudo-2 {
-    width: 100%;
-    padding: 0;
-    
-  }
-
 }
